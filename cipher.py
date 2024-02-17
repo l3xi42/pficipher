@@ -7,7 +7,7 @@ def duplicate(plaintext: str) -> str:
     duplicate('hello') -> 'hheelloo'
     """
     string = "" 
-    for i in str:
+    for i in plaintext:
         string += i*2
     return string
 
@@ -31,8 +31,8 @@ def caesar(plaintext: str, move: int) -> str:
 
 
 def main() -> None:
-    str = input()
-    print(duplicate(str))
+    stri = input()
+    print(duplicate(stri))
     pass
 
 
