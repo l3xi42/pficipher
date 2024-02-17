@@ -6,8 +6,10 @@ def duplicate(plaintext: str) -> str:
     Duplicate chars in 'plaintext':
     duplicate('hello') -> 'hheelloo'
     """
-    # TODO
-    pass
+    string = "" 
+    for i in str:
+        string += i*2
+    return string
 
 
 def intersection(a: str, b: str) -> str:
@@ -29,7 +31,8 @@ def caesar(plaintext: str, move: int) -> str:
 
 
 def main() -> None:
-    # TODO
+    str = input()
+    print(duplicate(str))
     pass
 
 
